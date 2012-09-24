@@ -10,7 +10,7 @@ Adding the universal tab requires to a site requires:
 2. Include the tabzilla.css CSS file either as a CSS include or built in to your minified styles.
     ```<link href="//www.mozilla.org/tabzilla/media/css/tabzilla.css" rel="stylesheet" />```
 3. Include the tabzilla.js file in your template (preferably in the footer).
-    ```<script src="//www.mozilla.org/tabzilla/media/js/tabzilla.js"></script>```
+    ```<script src="//www.mozilla.org/tabzilla/media/js/tabzilla.js" async></script>```
 
 Requirements
 ------------
